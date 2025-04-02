@@ -9,11 +9,10 @@ Dự án này nhằm nghiên cứu và so sánh độ chính xác của các mô
 ```plaintext
 📦 stock-price-prediction
 👉 📂 data                # Thư mục chứa dữ liệu
-   ┗📄 HCM11.csv
+   ┗📄 HCM.csv
    ┗📄 SSI.csv
    ┗📄 VCI.csv
    ┗📄 VND.csv
-   ┗📄 hello.txt
 👉 📂 main code           # Thư mục chứa các mô hình Machine Learning
    ┗📁 CNN_.ipynb
    ┗📁 CNN_BiLSTM.ipynb
