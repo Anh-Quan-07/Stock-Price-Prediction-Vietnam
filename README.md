@@ -4,7 +4,7 @@
 Dự án này nhằm nghiên cứu và so sánh độ chính xác của các mô hình **CNN, BiLSTM, LSTM, Hồi quy tuyến tính (Linear Regression) và XGBoost** khi áp dụng vào dữ liệu thị trường chứng khoán Việt Nam. Mục tiêu là tìm ra mô hình tối ưu nhất để dự đoán biến động giá cổ phiếu.  
 
 ## 📂 **Cấu Trúc Thư Mục**  
-plaintext
+
 📦 stock-price-prediction
 👉 📂 data                # Thư mục chứa dữ liệu
    ┗📄 HCM.csv
