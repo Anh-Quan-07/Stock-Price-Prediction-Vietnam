@@ -23,13 +23,13 @@ Dự án này nhằm nghiên cứu và so sánh độ chính xác của các mô
    ┗📁 Tổng quan giới thiệu các công ty...
 👉 README.md              # File mô tả dự án
 👉 requirements.txt       # Các thư viện cần cài đặt
-🔹 ## Tính Năng Chính
-✅ ## Dữ liệu
+## 🔹 Tính Năng Chính
+## ✅ Dữ liệu
 Sử dụng dữ liệu giá cổ phiếu lịch sử của các công ty chứng khoán Việt Nam: HCM, SSI, VCI, VND.
 
 Các đặc trưng chính: Giá mở cửa, Giá đóng cửa, Giá cao nhất, Giá thấp nhất.
 
-✅ ## Mô hình Machine Learning
+## ✅ Mô hình Machine Learning
 CNN.ipynb: Mô hình Convolutional Neural Network.
 
 CNN_BiLSTM.ipynb: Kết hợp CNN và BiLSTM để phân tích chuỗi thời gian.
@@ -42,14 +42,14 @@ Linear_Regression.ipynb: Hồi quy tuyến tính đơn giản để tạo baseli
 
 XgBoost.ipynb: Mô hình XGBoost để dự đoán giá cổ phiếu.
 
-✅ ## Kỹ thuật tối ưu hóa mô hình
+## ✅ Kỹ thuật tối ưu hóa mô hình
 K-Fold Cross Validation để đánh giá độ chính xác.
 
 EarlyStopping và ModelCheckpoint để cải thiện hiệu suất.
 
 Đánh giá bằng các chỉ số: MAE, MSE, RMSE, R².
 
-##🔧  **Cài Đặt & Sử Dụng**
+## 🔧 **Cài Đặt & Sử Dụng**
 1.**Clone repository từ GitHub về máy**
 
 bash
@@ -71,14 +71,14 @@ jupyter notebook
 bash
 python main.py
 
-##📊**Kết Quả & Nhận Định**
+##📊 **Kết Quả & Nhận Định**
 **LSTM và XGBoost** là hai mô hình có hiệu suất tốt nhất khi dự đoán xu hướng giá cổ phiếu.
 
 **Hồi quy tuyến tính** hoạt động kém hơn do không xử lý tốt quan hệ phi tuyến tính.
 
 **CNN_BiLSTM** có tiềm năng nhưng yêu cầu tài nguyên tính toán lớn hơn.
 
-##🏆 **Kết Luận & Hướng Phát Triển**
+## 🏆 **Kết Luận & Hướng Phát Triển**
 📌**Kết quả đạt được**
 Nghiên cứu đã áp dụng và tối ưu các mô hình học máy (LSTM, CNN, XGBoost, Linear Regression) cũng như các mô hình kết hợp (Linear Regression + LSTM, CNN + BiLSTM) để dự đoán giá cổ phiếu. Mô hình kết hợp Linear Regression + LSTM và CNN + BiLSTM cho kết quả dự đoán tốt nhất.
 
