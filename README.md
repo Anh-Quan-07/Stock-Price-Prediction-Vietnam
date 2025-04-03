@@ -1,4 +1,5 @@
-# 📊 Ứng Dụng Machine Learning Dự Đoán Giá Cổ Phiếu Các Công Ty Chứng Khoán Việt Nam  
+# 📈 Ứng Dụng Machine Learning Dự Đoán Giá Cổ Phiếu Các Công Ty Chứng Khoán Việt Nam  
+
 ## 📌 **Tổng Quan Dự Án**  
 Dự án này nhằm nghiên cứu và so sánh độ chính xác của các mô hình **CNN, BiLSTM, LSTM, Hồi quy tuyến tính (Linear Regression) và XGBoost** khi áp dụng vào dữ liệu thị trường chứng khoán Việt Nam. Mục tiêu là tìm ra mô hình tối ưu nhất để dự đoán biến động giá cổ phiếu.  
 
@@ -22,9 +23,6 @@ plaintext
    ┗📁 Tổng quan giới thiệu các công ty...
 👉 README.md              # File mô tả dự án
 👉 requirements.txt       # Các thư viện cần cài đặt
-
-
----
 ## 🔹 Tính Năng Chính
 ### ✅ Dữ liệu
 - Sử dụng dữ liệu giá cổ phiếu lịch sử của các công ty chứng khoán Việt Nam: **HCM, SSI, VCI, VND**.
